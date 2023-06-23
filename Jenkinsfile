@@ -1,4 +1,4 @@
-[200~node {
+node {
   stage('Clone') {
       git 'https://github.com/insafksi/Test-Git.git'
        
@@ -9,4 +9,4 @@
 		     stage('Run') {
 		           sh 'java Main'
 			     }
-			     }
+			    }
